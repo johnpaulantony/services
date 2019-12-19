@@ -13,7 +13,6 @@ public interface TrainerRepository extends JpaRepository<Trainers, String>{
 	@Procedure(name = "in_and_out_test_trainer")
     String getId(@Param("inParam") String inParam,@Param("inParam1") String inParam1,@Param("inParam2") String inParam2);
 
-	Optional<Trainers> findBytrainerName(String Username);
 	
 	
 
