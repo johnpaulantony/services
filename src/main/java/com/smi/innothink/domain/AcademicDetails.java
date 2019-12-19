@@ -57,7 +57,7 @@ public class AcademicDetails {
 	}
 	public int getYearOfPassing() {
 		return yearOfPassing;
-	}
+	} 
 	public void setYearOfPassing(int yearOfPassing) {
 		this.yearOfPassing = yearOfPassing;
 	}
