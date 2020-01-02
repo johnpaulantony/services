@@ -29,7 +29,7 @@ public class AcademicDetails {
 	private String stream;
 	
 	private int yearOfPassing;
-	
+	 
 	
 	public String getStudentAcademicId() {
 		return studentAcademicId;
